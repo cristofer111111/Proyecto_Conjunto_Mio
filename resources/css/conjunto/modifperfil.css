@@ -1,0 +1,46 @@
+label,h1{
+    color: black;
+}
+/*contenedor*/
+.contenedor{
+    width: 100%;
+    max-width: 1800px;
+    margin: auto;
+}
+/*tamaño de la imagen  de perfil*/
+.imagenperfil{
+    width: 200px;
+}
+/*centar la imagen de perfil y el boton*/
+.datos{
+    padding-top: 15px;
+    text-align: center;
+}
+/*boton del corregir*/
+.enviar{
+text-decoration: none;
+    width: 110px;
+    font-weight: 600;
+    height: 33px;
+    color: #ffffff;
+    background-color: #A67A44;
+    border-radius: 6px;
+    border: 1px;
+}
+/*cuando se seleccione el boton*/
+.enviar:hover{
+    color: #A67A44;
+    background-color: #ffffff;
+    border: 1px solid #A67A44;
+  }
+/*es la posicion de cada uno de los formularios*/
+.row{
+    margin-right: 0px !important ;
+    margin-left: 420px !important;
+}
+/*la posicion de los input*/
+.form-control{
+    position: absolute!important;
+    width: 99% !important;
+    border-radius: 1rem !important;
+}

@@ -1,0 +1,284 @@
+h1 {
+    text-align: center;
+}
+
+h1, label {
+    color: #1B1F26;
+}
+
+.contenedorForm {
+    margin-top: 2%;
+    width: 100%;
+    align-self: center;
+    height: auto;
+    max-height: 400px;
+}
+
+form {
+    /* Centrar el formulario en la página */
+    margin: 0 auto;
+    max-width: 600px;
+    /* Esquema del formulario */
+    padding: 1em;
+}
+
+.form-control {
+    border-radius: 1rem !important;
+}
+
+/*espacio del boton nuevo anuncio*/
+.notificacion {
+    display: flex;
+    float: right;
+    margin-right: 213px;
+}
+
+.textonotificar {
+    color: #A67A44 !important;
+}
+
+/*espacio de el buscar anuncio*/
+.filtrar {
+    margin-left: 222px;
+}
+
+/*centro de la pagina*/
+section {
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+    background: #1B1F26;
+    flex: 1;
+    opacity: 0.6;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 500px;
+}
+
+/*boton eliminar*/
+.icononoti {
+    float: right;
+    margin-right: 30px;
+}
+
+/*boton modificar*/
+.icononoti2 {
+    margin-right: 30px;
+    float: right;
+}
+
+.contenedor1 {
+    padding-left: 70px;
+}
+
+.button {
+    pointer-events: auto;
+    cursor: pointer;
+    background: #e7e7e7;
+    border: none;
+    padding: 1.5rem 3rem;
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    position: relative;
+    display: inline-block;
+}
+
+.button::before,
+.button::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.button--hyperion {
+    font-family: input-mono-narrow, monospace;
+    font-weight: 500;
+    padding: 1rem 1.5rem;
+    border: 1px solid #000;
+    overflow: hidden;
+    color: #fff;
+}
+
+.button--hyperion span {
+    display: block;
+    position: relative;
+}
+
+.button--hyperion>span {
+    overflow: hidden;
+}
+
+.button--hyperion>span>span {
+    overflow: hidden;
+    mix-blend-mode: difference;
+}
+
+.button--hyperion:hover>span>span {
+    animation: MoveUpInitial 0.2s forwards, MoveUpEnd 0.2s forwards 0.2s;
+}
+
+.cajastexto {
+    background-color: rgb(197, 197, 197);
+    width: 70px;
+    border: 1px;
+    border-color: rgb(197, 197, 197);
+    border-radius: 2em;
+    float: left;
+    padding-right: 50px;
+    height: 25px;
+}
+
+.texto {
+    font-size: 18px;
+    float: left;
+    padding-inline-end: 10px;
+}
+
+.contenedorPrinc {
+    width: 100%;
+    align-self: center;
+    padding-left: 6%;
+    padding-top: 1%;
+}
+
+.cont-Princi-izq {
+    width: 80%;
+    float: left;
+    height: 30px;
+}
+
+.cont-Princi-der {
+    width: 20%;
+    float: right;
+}
+
+.info {
+    background-color: rgba(0, 0, 0, 0.815);
+    color: white;
+    font-size: 18px;
+    width: 35%;
+    border-radius: 2em;
+    padding-left: 10px;
+}
+
+
+.button {
+    pointer-events: auto;
+    cursor: pointer;
+    background: #e7e7e7;
+    border: none;
+    padding: 1.5rem 3rem;
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    position: relative;
+    display: inline-block;
+}
+
+.button::before,
+.button::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.button--hyperion {
+
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    border: 1px solid #000;
+    overflow: hidden;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+}
+
+.button--hyperion span {
+    display: block;
+    position: relative;
+}
+
+.button--hyperion>span {
+    overflow: hidden;
+}
+
+.button--hyperion>span>span {
+    overflow: hidden;
+    mix-blend-mode: difference;
+}
+
+.button--hyperion:hover>span>span {
+    animation: MoveUpInitial 0.2s forwards, MoveUpEnd 0.2s forwards 0.2s;
+}
+.awidth{
+    width: 100%;
+}
+
+@keyframes MoveUpInitial {
+    to {
+        transform: translate3d(0, -105%, 0);
+    }
+}
+
+@keyframes MoveUpEnd {
+    from {
+        transform: translate3d(0, 100%, 0);
+    }
+
+    to {
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+.button--hyperion::before {
+    content: '';
+    background: #000;
+    transition: transform 0.3s cubic-bezier(0.7, 0, 0.2, 1);
+    transform-origin: 100% 50%;
+}
+
+.button--hyperion:hover::before {
+    transform: scale3d(0, 1, 1);
+    transform-origin: 0% 50%;
+}
+
+.invalid {
+    width: 100%;
+    font-size: 90%;
+    color: #dc3545;
+}
+
+input:invalid {
+    animation: shake 300ms;
+    border-color: red;
+}
+
+@keyframes shake {
+    25% {
+        transform: translateX(4px);
+    }
+
+    50% {
+        transform: translateX(-4px);
+    }
+
+    75% {
+        transform: translateX(4px);
+    }
+}
+
+[aria-current="disabled"] {
+    pointer-events: none;
+    cursor: not-allowed;
+    background-color: gray !important;
+}
+[aria-current="disabledtd"] {
+    cursor: not-allowed;
+}

@@ -1,0 +1,318 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Arimo';
+    font-size: 15px;
+    color: black;
+}
+/*contenedor*/
+.contenedor{
+    width: 100%;
+    max-width: 1800px;
+    margin: auto;
+}
+/*bordes*/
+.borde{
+    border: 2px solid #A67A44;
+}
+/*Navegador*/
+nav{
+    height: 55px;
+    display: flex;
+    background-color: #1B1F26;
+    flex-flow: row wrap;
+}
+
+.img-logo{
+    width: 100%;
+    height: 100%;
+}
+
+.colorenlace{
+    text-decoration: none;
+    height:100%;
+}
+/*cambios de los enlaces*/
+a.colorenlace:link,a.colorenlace:visited {
+    color: white;
+}
+a.colorenlace:hover {
+    color: #A67A44;
+}
+a.colorenlace:active {
+    color: #F2E49B;
+
+}
+
+.botonatras{
+    float: left;
+    display: flex;
+    margin-left: 70px;
+    margin-top: 20px;
+    }
+.Atras{
+    text-decoration: none;
+    color: black;
+}
+/*nombre imagen*/
+.imgatras{
+    margin-bottom: -10px;
+
+}
+.nomusuario{
+    padding-top:5px;
+}
+.boton{
+    background-color: rgb(197, 197, 197);
+    border: 1px solid rgb(197, 197, 197);
+    border-radius: 2em;
+	cursor: pointer;
+    width: 120px;
+    height: 25px;
+    text-align: left;
+    padding-left: 10px;
+    position: absolute;
+    font-size: 18px;
+}
+
+button{
+    text-decoration: none;
+    width: 110px;
+    font-weight: 600;
+    height: 70%;
+    color: #ffffff;
+    border-radius: 6px;
+
+}
+
+/*Centro de la pagina*/
+main{
+    width: 100%;
+    min-height: 650px;
+    background-image: url(../../img/fondo.JPEG) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: transparent;
+
+}
+/*centro de la pagina*/
+section{
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    background:  #1B1F26;
+    flex: 1;
+    opacity:0.6;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 520px;
+}
+.nuevanot{
+    text-decoration: none;
+    color: white;
+}
+.imgboton{
+    width: 30px;
+    height: 30px;
+}
+/*Pie de pagina*/
+
+
+/*Pie de pagina*/
+.footer-basic {
+    padding: 10px 0;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.footer-basic ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+.footer-basic li {
+    padding: 0 10px;
+}
+
+.footer-basic ul a {
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.footer-basic ul a:hover {
+    opacity: 1;
+}
+
+.footer-basic .social {
+    text-align: center;
+}
+
+.footer-basic .social>a {
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    margin: 0 8px;
+    color: inherit;
+    opacity: 0.75;
+}
+
+
+
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+.contPrincipal{
+    width: 100%;
+}
+.contenedorBody{
+    display: flex;
+    flex-flow:column wrap ;
+}
+.info{
+    background-color: rgba(0, 0, 0, 0.815);
+    color: white;
+    font-size: 18px;
+    width: 35%;
+    border-radius: 2em;
+    padding-left: 10px;
+}
+
+
+.contenedorPrinc{
+    width:100%;
+   align-self: center;
+   padding-left: 6%;
+   padding-top: 1%;
+}
+
+.contenedor1{
+    padding-left: 70px;
+}
+.contenedorPrinc1{
+    width:100%;
+   align-self: center;
+   padding-top: 5%;
+}
+.cont-Princi-izq{
+    width: 80%;
+    float: left;
+    height: 30px;
+}
+.cont-Princi-der{
+    width: 20%;
+    float: right;
+}
+.tablaFila{
+    border-color:#666666;
+    border: 1px;
+    text-align: center;
+}
+
+.tablaCabeceraGrande{
+    width: 22.5%;
+    text-align: center;
+}
+.tablaCabeceraMediano{
+    width: 16.3%;
+
+    text-align: center;
+}
+.tablaCabeceraComandos{
+    width: 10.3%;
+    text-align: center;
+}
+.contenedor2{
+    width:100%;
+   align-self: center;
+   padding-left: 5%;
+   overflow-y: scroll;
+   height: auto;
+   max-height: 400px;
+}
+.texto{
+    font-size: 18px;
+    float: left;
+    padding-inline-end: 10px;
+}
+.cajastexto{
+    background-color: rgb(197, 197, 197);
+    width: 70px;
+    border: 1px;
+    border-color: rgb(197, 197, 197);
+    border-radius: 2em;
+    float: left;
+    padding-right: 50px;
+    height: 25px;
+}
+.botonImg{
+    cursor: pointer;
+    padding-left: 85px;
+    width: 113px;
+    height: 23px;
+    position: absolute;
+    z-index: 1;
+}
+.imgLogo{
+    width: auto;
+    height: 60px;
+    padding: 5px;
+    float: right;
+}
+.imgMenu{
+    width: 45px;
+    height: 45px;
+    padding-top: 25px;
+    padding-left: 10px;
+    padding-right: 10PX;
+    float: left;
+}
+
+.tablaCabeceraGrandeHead{
+    width: 22.5%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.815);
+    color: white;
+}
+.tablaCabeceraMedianoHead{
+    width: 14.5%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.815);
+    color: white;
+}
+.tablaCabeceraComandosHead{
+    width: 10.2%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.815);
+      color: white;
+}
+.tablaIconos{
+    width: 17px;
+    height: 16px;
+    cursor: pointer;
+}
+.contPrincipal{
+    width: 100%;
+}
+form {
+    /* Centrar el formulario en la página */
+    margin: 0 auto;
+    width: 600px;
+    /* Esquema del formulario */
+    padding: 1em;
+  }

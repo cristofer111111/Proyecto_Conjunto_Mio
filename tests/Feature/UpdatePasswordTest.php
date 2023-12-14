@@ -1,0 +1,10 @@
+ageCatalog.Experimental.imagemanifest
+[0494:000c][2022-02-14T14:25:14] Completed: Copying file /Contents/Common7/IDE/CommonExtensions/Platform/Shell/Microsoft.VisualStudio.ImageCatalog.Experimental.imagemanifest to C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Platform\Shell\Microsoft.VisualStudio.ImageCatalog.Experimental.imagemanifest
+[0494:000c][2022-02-14T14:25:14] Timestamp updated for file 'C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Platform\Shell\Microsoft.VisualStudio.ImageCatalog.Experimental.imagemanifest'.
+[0494:000c][2022-02-14T14:25:14] Processing file /Contents/Common7/IDE/CommonExtensions/Platform/Shell/Microsoft.VisualStudio.ImageCatalog.imagemanifest
+[0494:000c][2022-02-14T14:25:14] Started: Copying file /Contents/Common7/IDE/CommonExtensions/Platform/Shell/Microsoft.VisualStudio.ImageCatalog.imagemanifest to C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Platform\Shell\Microsoft.VisualStudio.ImageCatalog.imagemanifest
+[0494:000c][2022-02-14T14:25:14] Completed: Copying file /Contents/Common7/IDE/CommonExtensions/Platform/Shell/Microsoft.VisualStudio.ImageCatalog.imagemanifest to C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Platform\Shell\Microsoft.VisualStudio.ImageCatalog.imagemanifest
+[0494:000c][2022-02-14T14:25:14] Timestamp updated for file 'C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Platform\Shell\Microsoft.VisualStudio.ImageCatalog.imagemanifest'.
+[0494:000c][2022-02-14T14:25:14] Processing file /Contents/Common7/IDE/CommonExtensions/Platform/Shell/Microsoft.VisualStudio.Pkgdef
+[0494:000c][2022-02-14T14:25:14] Started: Copying file /Contents/Common7/IDE/CommonExtensions/Platform/Shell/Microsoft.VisualStudio.Pkgdef to C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Platform\Shell\Microsoft.VisualStudio.Pkgdef
+[0494:000c][2022-02-14T14:25:14] Com

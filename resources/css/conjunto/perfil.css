@@ -1,0 +1,26 @@
+section{
+    color: #1B1F26;
+}
+
+/*imagen del centro de la pagina*/
+.imagenperfil{
+    width: 200px;
+}
+/*centra todos los valores o iconos*/
+.datos{
+    padding-top: 15px;
+    text-align: center;
+    font-size: 17px;
+}
+/*la posicion del texto*/
+.row{
+    margin-right: 0px !important ;
+    margin-left: 20px !important;
+}
+label{
+    margin-top: -0.5rem !important;
+}
+.centrar{
+    margin: auto;
+    width: 58%;
+}

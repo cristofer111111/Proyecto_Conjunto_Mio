@@ -1,0 +1,98 @@
+/*posiciona donde esta la parte negra*/
+.info{
+    background-color: rgba(0, 0, 0, 0.815);
+    color: white;
+    font-size: 18px;
+    width: 35%;
+    border-radius: 2em;
+    padding-left: 10px;
+}
+/*la parte del filtro*/
+.contenedorPrinc{
+    width:100%;
+   align-self: center;
+   padding-left: 10%;
+   padding-top: 1%;
+}
+/*posiciona la parte del filtro*/
+.cont-Princi-izq{
+    width: 82%;
+    float: left;
+    height: 30px;
+}
+/* texto del input*/
+.texto{
+    font-size: 18px;
+    float: left;
+    padding-inline-end: 10px;
+}
+/*tamaño de los input*/
+.cajastexto{
+    background-color: rgb(197, 197, 197);
+    width: 70px;
+    border: 1px;
+    border-color: rgb(197, 197, 197);
+    border-radius: 2em;
+    float: left;
+    padding-right: 50px;
+    height: 25px;
+}
+/*cambia la posicion del boton agregar*/
+.botonImg{
+    cursor: pointer;
+    color: #ffffff;
+    padding-left: 61px;
+    height: 23px;
+    position: absolute;
+    z-index: 1;
+}
+/*centrar y ancho de la tabla*/
+  table{
+    margin: 0 auto;
+      width: 80% !important;
+  }
+/*cambiar los valores para agregar la barra desplazadora*/
+  thead, tbody { 
+      display: block;
+     }
+/*agrega la barra desplazadora y el tamaño minimo de la tabla*/     
+tbody {
+    height: 200px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+/*centra el texto y imangenes de la tabla*/
+th,td{
+    text-align: center !important;  
+}
+/*ESPACIOS DE LA TABLA */
+/*|-----------------------------------------------------------------------|*/
+/*indicador*/
+.num{
+    width: 1%;
+}
+/*nombre*/
+.nom{
+    width: 175px;
+}
+/*apartamento*/
+.apar{
+    width: 162px;
+}
+/*correo*/
+.corr{
+    width: 255px;
+}
+/*notificar*/
+.adv{
+    width: 140px;
+}
+/*editar*/
+.edi{
+    width: 110px;
+}
+/*eliminar*/
+.bor{
+    width: 118px;
+}
+/*|-----------------------------------------------------------------------|*/

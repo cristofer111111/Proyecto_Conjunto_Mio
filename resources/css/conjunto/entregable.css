@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+*{
+	box-sizing: border-box;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+body{
+	margin: 0;	
+	background: #f2f2f2;
+}
+.contenedor{
+	width: 100%;
+	height: 100vh;
+}
+.lateral{
+	width: 25%;
+	height: 100%;
+	background: #f2f2f2;
+	float: left;
+}
+.mod-conf{
+	padding: 0 20px;
+	background-color: #0e121b;
+	color:white;
+}
+.lateral-opc{
+	height: 86.3vh;
+	overflow-y: scroll;
+ 	overflow-x: hidden;
+}
+.lateral h1{	
+	margin: 0;
+}
+.lateral .alin-der{
+	padding: 0 10px;
+	text-align: right;
+}
+.enlace{
+	color:white;
+}
+
+.lateral h2{
+	margin: 0px;
+}
+
+.principal{
+	width: 75%;
+	height: 100%;	
+	float: left;
+}
+h2{
+	background: #0e121b;
+	color:white;
+	text-align: center;
+}
+a{
+	text-decoration: none;
+	color: #A67A44;
+}
+iframe{
+	width: 100%;
+	height: 100%;
+	border: 0;	
+}
+button{
+	text-decoration: none;
+    width: 110px;
+    font-weight: 600;
+    font-size: 15px;
+    height: 35px;
+    color: white;
+    background-color: #A67A44;
+    border-radius: 6px;    
+    border: 1px;
+}
+button:hover{
+    color: #A67A44;
+    background-color: #ffffff;
+  }

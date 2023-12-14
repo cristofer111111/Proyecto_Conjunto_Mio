@@ -1,0 +1,457 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arimo', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+    height: 100%;
+}
+.contenedorBody{
+    display: flex;
+    flex-flow:column wrap ;
+}
+.imgLogoInicio{
+    width: auto;
+    height: 60px;
+    padding: 5px;
+    float: left;
+}
+.itemsIncio{
+    display:inline block;
+    width:130px;
+    float: right;
+    color: white;
+    padding: 1.5em;
+}
+.itemsIncio:hover{
+    background-color: gray;
+    height: 100%;
+    cursor: pointer;
+}
+.info{
+    background-color: rgba(0, 0, 0, 0.781);
+    color: white;
+    font-size: 18px;
+    width: 35%;
+    border-radius: 2em;
+    padding-left: 10px;
+}
+body{
+    background-image:url(../img/fondo.JPEG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+button{
+    text-decoration: none;
+    width: 110px;
+    font-weight: 600;
+    height: 33px;
+    color: #ffffff;
+    background-color: #A67A44;
+    border-radius: 6px;
+    border: 2px solid #F2E49B;
+}
+button:hover{
+    color: #A67A44;
+    background-color: #ffffff;
+  }
+.bodyFondo{
+    background-image:url(../img/FondoInicio.gif) !important ;
+    -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+.contenedorPrinc{
+    width:100%;
+   align-self: center;
+   padding-left: 5%;
+   padding-top: 1%;
+}
+.contenedor2{
+    width:100%;
+   align-self: center;
+   padding-left: 6%;
+   overflow-y: scroll;
+   height: auto;
+   max-height: 400px;
+}
+.cont-Princi-izq{
+    width: 80%;
+    float: left;
+    height: 30px;
+}
+.cont-Princi-der{
+    width: 20%;
+    float: right;
+}
+.cajastexto{
+    background-color: rgb(197, 197, 197);
+    width: 150px;
+    border: 1px;
+    border-color: rgb(197, 197, 197);
+    border-radius: 2em;
+    float: left;
+    padding-right: 50px;
+    height: 25px;
+}
+.texto{
+    font-size: 18px;
+    color: black;
+    float: left;
+    padding-inline-end: 10px;
+}
+.boton{
+    background-color: rgb(197, 197, 197);
+    border: 1px solid rgb(197, 197, 197);
+    border-radius: 2em;
+	cursor: pointer;
+    width: 120px;
+    height: 25px;
+    text-align: left;
+    padding-left: 10px;
+    position: absolute;
+    font-size: 18px;
+}
+.botonImg{
+    cursor: pointer;
+    padding-left: 85px;
+    width: 113px;
+    height: 23px;
+    position: absolute;
+    z-index: 1;
+}
+.tablaFila{
+    border-color:#666666;
+    border: 1px;
+}
+.tablaCabeceraGrande{
+    width: 22.5%;
+    text-align: center;
+}
+.tablaCabeceraMediano{
+    width: 16.1%;
+    text-align: center;
+}
+
+.tablaIconos{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+    .nav{
+        height: 70px;
+        width:100%;
+        align-self: center;;
+        background-color: black;
+    }
+.item{
+    padding-top: 20px;
+    font-size: 18px;
+    color: white;
+    float: left;
+}
+.imgLogo{
+    width: 300px;
+    height: 90px;
+    padding: 5px;
+}
+.imgMenu{
+    width: 45px;
+    height: 45px;
+    padding-top: 25px;
+    padding-left: 10px;
+    padding-right: 10PX;
+    float: left;
+}
+.tablaCabeceraGrandeHead{
+    width: 22.5%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.815);
+    color: white;
+}
+.tablaCabeceraMedianoHead{
+    width: 14.5%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.815);
+    color: white;
+
+}
+.tablaCabeceraComandosHead{
+    width: 10.2%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.815);
+    color: white;
+}
+.contPrincipal{
+    width: 100%;
+}
+/*Registrar usuario*/
+.nombreCampo{
+    font-size: 18px;float: left;
+    width: 100%;
+}
+.nombreCampoCon{
+    font-size: 18px;float: left;
+    width: 50%;
+}
+.cajasUsuario{
+    width: 100%;
+    background-color: rgb(197, 197, 197);
+    border-color: rgb(197, 197, 197);
+    border-radius: 2em;
+    padding-left: 5px;
+    height: 25px;
+    margin: 5px;
+    border: 1px;
+    border-color: rgb(197, 197, 197);
+}
+.cajasUsuarioCon{
+    width: 49.6%;
+    background-color: rgb(197, 197, 197);
+    border-color: rgb(197, 197, 197);
+    border-radius: 2em;
+    padding-right: 10px;
+    height: 25px;
+    border: 1px;
+    border-color: rgb(197, 197, 197);
+}
+form {
+    /* Centrar el formulario en la página */
+    margin: 0 auto;
+    width: 600px;
+    /* Esquema del formulario */
+    padding: 1em;
+  }
+
+.contenedorForm{
+    margin-top: 2%;
+    width:100%;
+    align-self: center;
+    height: auto;
+    max-height: 400px;
+}
+.cajasMultilinea{
+    width: 100%;
+    max-width: 100%;
+    min-height: 50px;
+    background-color: rgb(197, 197, 197);
+    border-color: rgb(197, 197, 197);
+    border-radius: 2em;
+    padding : 15px;
+    height: 25px;
+    margin: 5px;
+    border: 1px;
+    border-color: rgb(197, 197, 197);
+}
+.infoPago{
+    text-align: center;
+}
+.textoRojo{
+    color: red;
+}
+h3{
+    display: contents;
+    text-align: center;
+}
+h4{
+display: contents;
+text-align: center;
+}
+.checkBox{
+    width: 15%;
+    max-width: 50%;
+    min-height: 25px;
+    background-color: rgb(197, 197, 197);
+    border-color: rgb(197, 197, 197);
+    border-radius: 2em;
+    padding : 15px;
+    height: 25px;
+    margin: 5px;
+    border: 1px;
+    border-color: rgb(197, 197, 197);
+}
+.nombreCampoCheckBox{
+    font-size: 18px;
+    width: 50%;
+}
+.h4TextBox{
+    display: contents;
+    text-align: left !important;
+    }
+    .botonPagar{
+        background-color: black;
+        border:solid black;
+        border-radius: 2em;
+        cursor: pointer;
+        width: 80px;
+        height: auto;
+        text-align: center;
+        font-size: 14px;
+        color: white;
+    }
+    .tablaCabeceraGrandeMotivo{
+        width: 24%;
+        text-align: center;
+    }
+.labelInicio{
+    font-size: 18px;float: left;
+    width: 100%;
+color: white;
+}
+.contenedorFormInicio{
+    margin-top: 13%;
+    width:60%;
+    align-self: center;
+    height: auto;
+    float: right;
+}
+.imgLogoIni{
+    margin-top: 40%;
+    width:50%;
+    align-self: center;
+    height: auto;
+    padding-left: 100px;
+
+}
+  .contenedorImgIncio{
+      width: 40%;
+      float: left;
+      margin-top: 15%;
+    align-self: center;
+    height: auto;
+    padding-left: 250px;
+  }
+  .formInicio {
+    /* Centrar el formulario en la página */
+    margin: 0 auto;
+    width: 350px !important;
+    /* Esquema del formulario */
+
+    background-color: rgba(128, 128, 128, 0.418);
+    height: 200px;
+    border-radius: 2em;
+  }
+  .link{
+    color: #c5b66e;
+    font-size: 12px;
+    padding: 1em;
+    cursor: pointer;
+}
+.imgContactanos{
+    height: 400px;
+    width: 400px;
+}
+.contenedorImgContactenos{
+    width: 40%;
+    float: left;
+  align-self: center;
+  height: auto;
+  padding-left: 250px;
+}
+span.blue {
+    background: #5178D0;
+    border-radius: 0.8em;
+    -moz-border-radius: 0.8em;
+    -webkit-border-radius: 0.8em;
+    display: inline-block;
+    line-height: 1em;
+    margin-right: 15px;
+    text-align: center;
+    width: 1em;
+    font-size: 10px;
+  }
+  /*Centro de la pagina*/
+main{
+    width: 100%;
+    min-height: 610px;
+    background-image: url(../../img/fondo.JPEG) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: transparent;
+
+}
+
+.nomusuario{
+    padding-top:5px;
+}
+
+
+/*Pie de pagina*/
+.footer-basic {
+    padding: 10px 0;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.footer-basic ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+.footer-basic li {
+    padding: 0 10px;
+}
+
+.footer-basic ul a {
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.footer-basic ul a:hover {
+    opacity: 1;
+}
+
+.footer-basic .social {
+    text-align: center;
+}
+
+.footer-basic .social>a {
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    margin: 0 8px;
+    color: inherit;
+    opacity: 0.75;
+}
+
+.footer-basic .social>a:hover {
+    opacity: 0.9;
+}
+
+.footer-basic .copyright {
+    text-align: center;
+    font-size: 13px;
+    color: #aaa;
+    margin-bottom: 0;
+}
+  /*img del atras*/
+.botonatras{
+    float: left;
+    display: flex;
+    margin-left: 70px;
+    margin-top: 20px;
+    }
+.Atras{
+    text-decoration: none;
+    color: black;
+}
+/*nombre imagen*/
+.imgatras{
+    margin-bottom: -10px;
+
+}

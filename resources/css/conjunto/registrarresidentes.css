@@ -1,0 +1,40 @@
+/*centar el titulo*/
+h1{
+    text-align: center;
+}
+/*cambiar el color por defecto*/
+h1,label{
+    color: black;
+}
+/*contenedor*/
+.contenedor{
+    width: 100%;
+    max-width: 1800px;
+    margin: auto;
+}
+
+.nombreCampoCon{
+    font-size: 18px;
+    float: left;
+    width: 50%;
+}
+/**/
+form {
+    /* Centrar el formulario en la página */
+    margin: 0 auto;
+    width: 600px;
+    /* Esquema del formulario */
+  }
+  /*redondea los input*/
+  .form-control{
+    border-radius: 1rem !important;
+    
+}
+/*colocar los 2 input apartemento y torre juntos*/
+.union{
+    display: flex;
+}
+/*mover a la derecha el titulo de apartamento*/
+.apart{
+    margin-left: 265px !important;
+}

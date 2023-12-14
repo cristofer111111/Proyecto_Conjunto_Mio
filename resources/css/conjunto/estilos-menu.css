@@ -1,0 +1,130 @@
+/*ESTILOS DE LOS MENUS*/
+/*PARTE PRINCIPAL DEL MENU*/
+/*|------------------------------------------------------------------|*/
+/*parte superior del menu*/
+.contenedorMenu {
+    display: flex;
+    align-self: center;
+    background-color: #0e121b;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+/*color del titulo en la parte superior izquierda*/
+.tituloPagina {
+    display: flex;
+    color: #c5b66e;
+    font-size: 25px;
+    float: left;
+
+}
+
+/*logo conjuntomio*/
+.imgLogo {
+    max-width: 249px;
+    width: 100%;
+    height: 90px;
+    padding: 5px;
+}
+
+/*|------------------------------------------------------------------|*/
+
+/*oculta el boton checkbox*/
+input#abrir-cerrar {
+    visibility: hidden;
+    position: absolute;
+    top: -9999px;
+}
+
+/*permite que pueda ser seleccionado el boton de menu*/
+label[for="abrir-cerrar"] {
+    cursor: pointer;
+    padding-top: 23px;
+    display: inline-block;
+}
+
+/*el espacio que ocupa el menu desplegable ademas de la posicion que ocupa*/
+input#abrir-cerrar:checked~#sidebar {
+    width: 268px;
+    margin-top: 46px;
+    position: absolute;
+    height: max-content;
+}
+
+/* mantiene en la posicion adecuada el menu*/
+.sidebar {
+    position: fixed;
+    height: 100%;
+    width: 0;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: #0e121b;
+    overflow-x: hidden;
+    transition: 0.4s;
+    padding: 1rem 0;
+    box-sizing: border-box;
+}
+
+/*el tamaño del menu desplegable*/
+.sidebar ul {
+    margin: 4rem auto;
+    display: block;
+    width: 80%;
+    min-width: 200px;
+    min-height: 400px;
+}
+
+/*el tamaño de los links del menu despegable*/
+.sidebar a {
+    display: block;
+    font-size: 120%;
+    color: #eee;
+    text-decoration: none;
+    padding: 5px;
+
+}
+
+/*permite alinear las imagenes de los iconos con los enlaces*/
+.sidebar img {
+    display: block;
+    float: left;
+    padding-top: 8px;
+    padding-right: 15px;
+}
+
+
+/*cambia a la posicion derecha */
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+
+
+/*cambiar el color cuando el mouse pase los links y la linea inferior*/
+a:hover {
+    color: #A67A44 !important;
+    text-decoration: none !important;
+}
+
+/*cambia el color cuando de click en los botones de perfil*/
+.dropdown-item:active {
+    background-color: #A67A44 !important;
+    color: #ffffff !important;
+}
+
+/*quitar el asterisco que aparece en la parte izquierda de las opciones del menu desplegable*/
+ul, ol {
+    list-style: none;
+}
+
+label {
+    margin-bottom: 0px !important;
+}
+
+@media (max-width: 992px) {
+    .imgIcon {
+        padding-right: 10px;
+    }
+}
+

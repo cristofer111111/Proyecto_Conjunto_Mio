@@ -1,0 +1,241 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Arimo' !important;
+    font-size: 15px !important;
+    background-image: url(../img/prueba.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    height: 100%;
+}
+
+/*Centro de la pagina*/
+main {
+    width: 100%;
+    height: 76%;
+}
+
+/*Pie de pagina*/
+.footer-basic {
+    padding: 10px 0;
+    background-color: #000000;
+    color: #ffffff;
+    height: 12%;
+}
+
+.footer-basic ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+.footer-basic li {
+    padding: 0 10px;
+}
+
+.footer-basic ul a {
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.footer-basic ul a:hover {
+    opacity: 1;
+}
+
+.footer-basic .social {
+    text-align: center;
+}
+
+.footer-basic .social>a {
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    margin: 0 8px;
+    color: inherit;
+    opacity: 0.75;
+}
+
+.footer-basic .social>a:hover {
+    opacity: 0.9;
+}
+
+.footer-basic .copyright {
+    text-align: center;
+    font-size: 13px;
+    color: #aaa;
+    margin-bottom: 0;
+}
+
+/*BOTONES BTN Y BTN-PRIMARY*/
+/*|------------------------------------------------------------------|*/
+/*boton inicial*/
+.btn-primary {
+    border: 1px solid #A67A44 !important;
+    color: white;
+    background-color: #A67A44 !important;
+    box-shadow: none !important;
+}
+
+/*boton cuando se pone coloca el mouse frente*/
+.btn-primary:hover {
+    color: #A67A44 !important;
+    background-color: #f5f4f4 !important;
+    border: 1px solid #A67A44 !important;
+    box-shadow: none !important;
+
+}
+
+/*cuando esta en reposo*/
+.btn-primary:link {
+    border: 1px solid #A67A44 !important;
+
+    background-color: #A67A44 !important;
+    box-shadow: none !important;
+}
+
+/*cuando se hace click*/
+.btn-primary:active {
+    color: white !important;
+    background-color: #A67A44 !important;
+    box-shadow: none !important;
+}
+
+/*|------------------------------------------------------------------|*/
+/*img del atras*/
+.botonatras {
+    float: left;
+    display: flex;
+    padding-left: 70px;
+    padding-top: 20px;
+}
+
+.Atras {
+    color: #A67A44 !important;
+}
+
+.Atras:hover {
+    color: #ffffff !important;
+}
+
+/*boton*/
+button {
+    text-decoration: none;
+    font-weight: 600;
+    height: 36px;
+    background-color: #A67A44;
+    border-radius: 6px !important;
+    border: 1px;
+}
+
+
+.labelcolor {
+    color: #c5b66e;
+}
+
+.buttonEditarReportes {
+    text-decoration: none;
+    padding: 9px;
+    color: #ffffff !important;
+    background-color: black !important;
+    border-radius: 10px !important;
+    border: 1px;
+}
+
+.bg-negro-reportes {
+    background-color: #343a40a6 !important;
+}
+
+.form-anuncios {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-link {
+    display: inline !important;
+}
+.navbar{
+    position: sticky !important;
+    top: 0;
+    z-index: 1;
+}
+.iconNotification{
+    animation: notification 2s infinite;
+}
+@keyframes notification {
+    5% {transform: rotate(10deg);}
+    10% {transform: rotate(-10deg);}
+    15% {transform: rotate(10deg);}
+    20% {transform: rotate(0deg);}
+}
+@media (min-width: 992px) {
+    .navbar-expand-lg {
+        height: 12%;
+    }
+}
+@media (max-width: 991.98px) {
+    main {
+        width: 100%;
+        height: 82%;
+    }
+}
+.mainForm{
+    min-height: 82vh;
+}
+
+.table-fixed tbody {
+    height: 230px;
+    overflow-y: auto;
+    width: 100%;
+  }
+
+  .table-fixed thead,
+  .table-fixed tbody,
+  .table-fixed tfoot,
+  .table-fixed tr,
+  .table-fixed td,
+  .table-fixed th {
+    display: block;
+  }
+
+  .table-fixed tbody td,
+  .table-fixed thead > tr> th,
+  .table-fixed tfoot > tr> td{
+    float: left;
+    border-bottom-width: 0;
+  }
+
+  .toast{
+      background-color: #000000 !important;
+      color: white;
+  }
+  .btn-close{
+    box-sizing: content-box;
+    width: 1em;
+    height: 1em;
+    padding: 0.25em 0.25em;
+    color: white;
+    border: 0;
+    border-radius: 0.25rem;
+    opacity: .9;
+    background-color: transparent;
+  }
+  .btn-close:hover {
+    color: #A67A44 !important;
+}
+.fade {
+    transition: opacity .15s linear;
+}

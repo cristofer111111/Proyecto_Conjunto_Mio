@@ -1,0 +1,18 @@
+/*centrar y ancho de la tabla*/
+table{
+    margin: 0 auto;
+      width: 80% !important;
+  }
+  /*cambiar los valores para agregar la barra desplazadora*/
+  thead, tbody { 
+    display: block;
+   }
+/*agrega la barra desplazadora y el tamaño minimo de la tabla*/     
+tbody {
+  height: 200px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.num{
+    width: 2%;
+}
